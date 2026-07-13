@@ -1,0 +1,24 @@
+name: sendsar_chat
+description: Chat SDK for Flutter — Sendsar client SDK (connect, rooms, messages, typing, presence).
+version: 0.1.0
+homepage: https://github.com/Sendsar-Chat/chat-sdk-flutter
+repository: https://github.com/Sendsar-Chat/chat-sdk-flutter
+issue_tracker: https://github.com/Sendsar-Chat/chat-sdk-flutter/issues
+license: MIT
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  socket_io_client: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
